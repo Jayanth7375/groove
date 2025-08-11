@@ -1,0 +1,216 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(100, 33, 0, 0.861);
+    margin: 0;
+}
+.abttxt{
+    text-align: center;
+    margin-left: 45%;
+    padding: 25px;
+    position: fixed;
+    top:0;
+}
+.headerr{
+    position: sticky;
+    top: 0;
+}
+.abt{
+    text-align: center;
+    background-color: beige;
+    margin: 0;
+    height: 100px;
+}
+.strpp{
+    font-weight: bold;
+    font-size: large;
+    /* padding: 20px; */
+}
+.strp{
+    color:white;
+    font-weight: bold;
+    width: 750px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 10px 10px 7px black;
+}
+.story-section {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 50px; 
+    padding: 40px;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.ourstory {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+}
+.ourstorypic img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px; 
+}
+.philo-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    padding: 40px;
+    animation-name: slideleft;
+    animation-duration: 2s;
+}
+.philosophy{
+    flex:1;
+    max-width: 600px;
+    text-align: center;
+}
+.philo_img img{
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.phiop{
+    font-size: larger;
+    font-weight: bold;
+}
+.phil{
+    color:white;
+    font-weight: bold;
+    width: 750px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 10px 10px 7px black;
+}
+.chef-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    padding: 40px;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+.chef{
+    flex:1;
+    max-width: 600px;
+    text-align: center;
+}
+.chefimg img{
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.chefdes{
+    font-size: larger;
+    font-weight: bold;
+}
+.chefti{
+    color:white;
+    font-weight: bold;
+    width: 750px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 10px 10px 7px black;
+}
+.atmo-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    padding: 40px;
+    animation-name: slideleft;
+    animation-duration: 2s;
+}
+.atmosphere{
+    flex:1;
+    max-width: 600px;
+    text-align: center;
+}
+.atmo_img img{
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.atmo{
+    font-size: larger;
+    font-weight: bold;
+}
+.atom{
+    color:white;
+    font-weight: bold;
+    width: 750px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 10px 10px 7px black;
+}
+.prom-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    padding: 40px;
+    animation-name: slideup;
+    animation-duration: 2s;
+}
+.promise{
+    flex:1;
+    max-width: 600px;
+    text-align: center;
+}
+.promimg img{
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.promdes{
+    font-size: larger;
+    font-weight: bold;
+}
+.promh{
+    color:white;
+    font-weight: bold;
+    width: 750px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 10px 10px 7px black;
+}
+.homebtn{
+    display: flex;
+    align-items:first baseline;
+    justify-content: first baseline; 
+    width: 500px;
+}
+.homelink{
+    margin-top: 40px;
+    margin-left: 110px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.btnhome{
+    width: 150px;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgb(159, 156, 156);
+    border: none;
+    height: 50px;
+}
+.btnhome:hover{
+    background-color: rgb(115, 114, 114);
+    transition: background 0.3s;
+}
+@keyframes slideleft{
+    from{transform: translate(900px);}
+}
+@keyframes slideright{
+    from{transform: translate(-900px);}
+}
+@keyframes slideup{
+    from{transform: translateY(900px);}
+}

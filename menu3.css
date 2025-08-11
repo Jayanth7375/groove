@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav2p{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.hero{
+    padding-top: 20px;
+    text-align: center; 
+    background-color: rgb(116, 116, 1);
+    position: sticky;
+    top: 0; 
+    width: 100%;
+    height: 100px;
+}
+.nav2{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #222;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+}
+.nav2 ul{
+    list-style: none;
+    padding: 0px;
+}
+.nav2 ul li{
+    margin: 40px 0;
+}
+.nav2 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    display: block;
+}
+.nav2 ul li a:hover{
+    background-color: rgb(89, 88, 88);
+    border-radius: 50px;
+}
+.nav2h{
+    color: white;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.menuu{
+    margin-top:20px;
+    margin-left: 650px;
+    font-size:40px;
+}
+.lava{
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+.lava p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.lava h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.lava {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.lava:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.lay{
+    margin-top: 75px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.lay p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.lay h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.lay {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.lay:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.ice{
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.ice p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.ice h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.ice {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.ice:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.lem{
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+.lem p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.lem h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.lem {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.lem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.cof{
+    vertical-align: top;
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.cof p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cof h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cof {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.cof:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.mango{
+    vertical-align: top;
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.mango p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.mango h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.mango {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.mango:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.pagination{
+    margin-left: 780px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pagination a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+.pagination .active{
+    background-color: gold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: gray;
+    border-radius: 5px;
+}

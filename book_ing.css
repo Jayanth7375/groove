@@ -1,0 +1,111 @@
+body{
+    margin: 0;  
+}
+
+.imgg {
+    background-image: url("book-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.whole {
+    background: linear-gradient(160deg, #050505, #9c7e05);
+    border-radius: 20px;
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+    height: 690px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.heading {
+    font-size: 28px;
+    color: gold;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 20px; 
+    margin-left: 0;      
+}
+.row1{
+    display: flex;
+    gap: 30px;
+}
+.group{
+    flex: 1;
+}
+label{
+    font-size: 24px;
+    color: aliceblue;
+    padding: 25px;
+}
+input{
+    border-radius: 9px;
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+    border: none;
+}
+.row2{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.row3{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.select{
+    margin-left: 25px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 9px;
+}
+.groupp {
+    display: flex;
+    flex-direction: column; 
+    flex: 1; 
+}
+.groupp label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: white;
+}
+.groupp textarea {
+    border-radius: 9px;
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    background-color: aliceblue;
+}
+.form-actions {
+    text-align: center;
+    margin-top: 30px;
+}
+.form-actions button {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.form-actions button:hover {
+    background-color: black;
+    color: gold;
+    box-shadow: 0 0 15px gold;
+    transform: scale(1.05);
+}
+

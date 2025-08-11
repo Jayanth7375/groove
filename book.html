@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book_ing.css">
+</head>
+<body>
+    <div class="imgg">  
+        <form class="whole" action="confirm.html" method="get">
+            <h2 class="heading">Reserve Your Seat at The Groove</h2>
+            <div class="row1">
+                <div class="group">
+                    <label for="fname">First Name</label><br><br>
+                    <input type="text" id="fname" placeholder="First-Name" required>
+                </div>
+                <div class="group">
+                    <label for="lname">Last Name</label><br><br>
+                    <input type="text" id="lname" placeholder="Last-Name" required>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="group">
+                    <label for="phono">Phone number</label><br><br>
+                    <input type="tel" id="phono" placeholder="Mobile Number" required>
+                </div>
+                <div class="group">
+                    <label for="mail">Email</label><br><br>
+                    <input type="email" id="mail" placeholder="E-Mail" required>
+                </div>
+            </div>
+
+            <div class="row3">
+                <div class="group">
+                    <label for="date">Date</label><br><br>
+                    <input type="date" id="date" placeholder="dd-mm-yyyy" required>
+                </div>
+                <div class="group">
+                    <label for="mail">Time</label><br><br>
+                    <select class="select">
+                        <option value=""disabled selected>--select--</option>
+                        <option>6.30PM</option>
+                        <option>7.00PM</option>
+                        <option>7.30PM</option>
+                        <option>8.00PM</option>
+                        <option>8.30PM</option>
+                        <option>9.00PM</option>
+                        <option>9.30PM</option>
+                        <option>10.00PM</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="groupp">
+                    <label for="th">Suggestions/Special Requests</label>
+                    <textarea id="th" placeholder="Tell us about yourself"></textarea>
+                </div>
+            </div>
+            <div class="form-actions">
+                <button type="submit">Book Now</button>
+            </div>            
+        </form>
+    </div>
+</body>
+</html>

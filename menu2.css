@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav2p{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.hero{
+    padding-top: 20px;
+    text-align: center; 
+    background-color: rgb(116, 116, 1);
+    position: sticky;
+    top: 0; 
+    width: 100%;
+    height: 100px;
+}
+.nav2{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #222;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+}
+.nav2 ul{
+    list-style: none;
+    padding: 0px;
+}
+.nav2 ul li{
+    margin: 40px 0;
+}
+.nav2 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    display: block;
+}
+.nav2 ul li a:hover{
+    background-color: rgb(89, 88, 88);
+    border-radius: 50px;
+}
+.nav2h{
+    color: white;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.menuu{
+    margin-top:20px;
+    margin-left: 700px;
+    font-size:40px;
+}
+.pizza{
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+.pizza p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pizza h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pizza {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.pizza:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.cpizza{
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.cpizza p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cpizza h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cpizza {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.cpizza:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.pasta{
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.pasta p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pasta h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pasta {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.pasta:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.chick{
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+.chick p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.chick h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.chick {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.chick:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.burg{
+    vertical-align: top;
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.burg p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.burg h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.burg {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.burg:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.fish{
+    vertical-align: top;
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 3px 3px 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.fish p{
+    width: 280px;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.fish h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.fish {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.fish:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.pagination{
+    margin-left: 780px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pagination a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+.pagination .active{
+    background-color: gold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: gray;
+    border-radius: 5px;
+}
