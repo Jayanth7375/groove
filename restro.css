@@ -8,12 +8,14 @@ body{
 .navi {
     width: 200px;
     height: 100vh;
-    background:linear-gradient(160deg,#306554,#1d6d59);
+    background:linear-gradient(160deg,#27272d,#746700);
     color: white;
     padding-top: 20px;
     position: fixed; 
     top: 0;
     left: 0;
+    border: 5px solid black;
+    opacity: 1;
 }
 .navi .exp {
     text-align: center;
@@ -31,20 +33,21 @@ body{
     text-decoration: none;
     padding: 10px 15px;
     display: block;
-    transition: background 0.2s;
 }
 .title{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: white;
-    background:linear-gradient(160deg,#653043,#0478a1);
+    background:linear-gradient(160deg,#000000,#000000);
     padding: 20px;
     height: 100px;
     position: sticky;
     top: 0;
 }
 .navi ul li a:hover {
-    background-color: #444;
+    box-shadow: 0px 0px 7px gold;
+    color: gold;
+    background-color: black;
     border-radius: 50px;
 }
 .t1{
@@ -81,13 +84,13 @@ body{
     animation-duration: 1s;
 }
 .btn{
-    width: 130px;
+    width: 250px;
     font-size: larger;
     font-weight: bold;
     color: black;
     background-color: black;
     height: 50px;
-    
+    text-decoration: none;
     border-radius: 50px;
     border: none;
     background-color: gold;
@@ -108,3 +111,68 @@ body{
     height: 200px;
     background-color:rgb(27, 25, 25)
 }
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.hero .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: linear-gradient(160deg, rgba(5,5,5,0.8), rgba(156,126,5,0.6));
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: gold;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: gold;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: black;
+    color: gold;
+    box-shadow: 0px 0px 15px gold;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
